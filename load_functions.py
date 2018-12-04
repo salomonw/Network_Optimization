@@ -1,4 +1,6 @@
 # Loading functions
+import os 
+os.chdir('G:/My Drive/Github/Network_Optimization')
 dir_ = 'algorithms/'
 execfile( dir_ + 'bellman_ford.py')
 execfile( dir_ + 'bellman_ford_queue.py')
